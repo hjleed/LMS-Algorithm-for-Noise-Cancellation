@@ -1,32 +1,22 @@
-# LMS-Algorithm-for-Noise-Cancellation
-The main objective of this project is to present and simulate an adaptive filter using LMS (Least Mean
-Square) for noise cancellation. The method estimates signal corrupted by additive noise or interference. The primary
-input contains the corrupted signal and the reference input contains noise that is correlated somehow with the
-primary noise. The algorithm minimizes the mean squared error of cost function trying to converge in least mean
-square sense to the optimal Wiener-Hopf solution to filter the noise from the signal. 
+# A novel LMS scheme for adaptive noise cancellation
+
+The code is the implementation of the conference paper.
+Feel free to use this code, but please cite the folowing paper
 
  # figure:
  ![alt text](http://www.site.uottawa.ca/~hjlee103//img/adc.png))
  
- # more projects
- http://www.site.uottawa.ca/~hjlee103/CV/Ecard.html
+
  # cite
  
- @misc{Jleed2015An,
+@misc{Jleed2013,
 author={Jleed, Hitham},
 title = {An adaptive noise cancellation using Least Mean Square algorithm},
+publisher = {the first International Conference on Electrical and Computer Engineering (ICECE 2013)},
+place={Benghazi, Libya},
 year = {2013},
-publisher = {GitHub},
-journal = {GitHub repository},
-howpublished = {\url{https://github.com/hjleed/LMS-Algorithm-for-Noise-Cancellation}},
+pages={21--25},
 }
 
-
-@inproceedings{jleed2017acoustic,
-title={Acoustic environment classification using discrete hartley transform features},
-author={Jleed, Hitham and Bouchard, Martin},
-booktitle={Electrical and Computer Engineering (CCECE), 2017 IEEE 30th Canadian Conference on},
-pages={1--4},
-year={2017},
-organization={IEEE}
-}
+ # more projects
+ http://www.site.uottawa.ca/~hjlee103/CV/Ecard.html

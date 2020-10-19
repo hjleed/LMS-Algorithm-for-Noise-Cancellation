@@ -1,4 +1,4 @@
-%% project for ELG-5377, Fall 2014 by Hitham Jleed
+%% 
 close all; clear all;
 fs=12000;                         % Sampling frequency 
 fN=21;                            % Transversal filter length
